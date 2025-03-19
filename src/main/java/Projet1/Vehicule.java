@@ -1,19 +1,19 @@
 package Projet1;
 
-public class Voiture {
+public class Vehicule {
     String marque;
     String modele;
     int annee;
 
-    public Voiture(String marque, String modele, int annee) {
+    public Vehicule(String marque, String modele, int annee) {
         this.marque = marque;
         this.modele = modele;
         this.annee = annee;
     }
 
-    
+
 
     public void afficherInfo() {
-        System.out.println("Marque :"+marque + ", modèle :" + modele + ", année :" + annee);
+        System.out.print("Marque :"+marque + ", modèle :" + modele + ", année :" + annee);
     }
 }
